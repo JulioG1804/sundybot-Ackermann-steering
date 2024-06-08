@@ -24,6 +24,6 @@ Este robot utiliza varios paquetes complementarios que deben ser instalados tant
 
 ### Para el robot
 - [joy](https://github.com/ros-drivers/joystick_drivers/tree/main/joy): Permite conectar el mando a distancia F710.
-- [rosserial](https://github.com/SteveMacenski/slam_toolbox): Facilita la comunicación serial con los Arduinos.
+- [rosserial](https://github.com/ros-drivers/rosserial): Facilita la comunicación serial con los Arduinos.
 - [ldlidar_stl_ros](https://github.com/SteveMacenski/slam_toolbox): Levanta la información obtenida por el LIDAR LD19. Este paquete ha sido modificado para adaptarlo a la arquitectura desarrollada para este robot.
 
