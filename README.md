@@ -14,7 +14,7 @@ Para visualizar al robot desde una computadora remota se incluyen dos paquetes:
 - [sundy_model_PKG](https://github.com/SteveMacenski/slam_toolbox): Este paquete incluye los modelos URDF del robot así como programas para la interfaz gráfica de RViz.
 
 Para la ejecución del robot y la activación de los diferentes tópicos y nodos, se incluye el siguiente paquete:
-- [sundy_operation](https://github.com/SteveMacenski/slam_toolbox): Este paquete contiene un nodo de teleoperación y el nodo maestro del robot.
+- [sundy_operation](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/sundy_operation): Este paquete contiene un nodo de teleoperación y el nodo maestro del robot.
 
 ## Paquetes Necesarios
 Este robot utiliza varios paquetes complementarios que deben ser instalados tanto en la computadora remota como en el robot:
