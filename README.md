@@ -32,38 +32,45 @@ Este robot utiliza varios paquetes complementarios que deben ser instalados tant
 ## Lanzadores
 Para la puesta en marcha se disponen diferentes lanzadores tanto para el robot como para la computadores remota
 ### Para el robot
+Este lanzador inicia el nodo maestro, así como la comunicación en ROS serial con los Arduino Uno y Nano:
 ```bash
 roslaunch sundy_operation sundybot_fake.launch
 ```
-Este lanzador inicia el nodo maestro, así como la comunicación en ROS serial con los Arduino Uno y Nano.
+
+Este lanzador inicia el nodo de teleoperación creado para el control de velocidad y dirección, así como el nodo joy_node para la comunicación con el mando F710:
 ```bash
 roslaunch sundy_operation sundybot_gp_teleoperation.launch
 ```
-Este lanzador inicia el nodo de teleoperación creado para el control de velocidad y dirección, así como el nodo joy_node para la comunicación con el mando F710.
+
+Este lanzador inicia los mismos nodos que sundybot_fake, pero además incluye el paquete del LiDAR. En el lanzador se incluye el código configurado en el apartado dedicado a la preparación del sensor LD19:
 ```bash
 roslaunch sundy_operation sundybot_with_lidar.launch
 ```
-Este lanzador inicia los mismos nodos que sundybot_fake, pero además incluye el paquete del LiDAR. En el lanzador se incluye el código configurado en el apartado dedicado a la preparación del sensor LD19.
+
 
 ### Para la computadora remota
+Este lanzador inicia el modelo URDF del robot y el modelo center_point. Además, levanta el nodo Rviz con una configuración de entorno que no incluye la información del LIDAR:
 ```bash
 roslaunch sundy_model_pkg sundy_robot.launch
 ```
-Este lanzador inicia el modelo URDF del robot y el modelo center_point. Además, levanta el nodo Rviz con una configuración de entorno que no incluye la información del LIDAR.
+
+Al igual que el lanzador anterior, este inicia los modelos y carga el entorno de Rviz, que esta vez incluye la información proporcionada por el LIDAR:
 ```bash
 roslaunch sundy_model_pkg sundy_robot_with_lidar.launch
 ```
-Al igual que el lanzador anterior, este inicia los modelos y carga el entorno de Rviz, que esta vez incluye la información proporcionada por el LIDAR.
+
+Este lanzador permite hacer uso del hector_slam:
 ```bash
 roslaunch sundy_model_pkg sundy_robot_hectorslam.launch
 ```
-Este lanzador permite hacer uso del hector_slam.
+
+Este comando levanta la interfaz grafica dashboard:
 ```bash
 rosrun sundy_gui_pkg dashboard.py
 ```
-Este comando levanta la interfaz grafica dashboard
+
+Este comando levanta la interfaz grafica para recolectar datos:
 ```bash
 rosrun sundy_gui_pkg collector.py
 ```
-Este comando levanta la interfaz grafica para recolectar datos
 
