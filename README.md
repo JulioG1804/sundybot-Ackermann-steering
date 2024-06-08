@@ -11,7 +11,7 @@ Los diagramas de conexión y los esquemas de la arquitectura de software y hardw
 ## Paquetes Proporcionados
 Para visualizar al robot desde una computadora remota se incluyen dos paquetes:
 - [sundy_gui_PKG](https://github.com/SteveMacenski/slam_toolbox): Este paquete contiene dos interfaces gráficas (Dashboard y Collector).
-- [sundy_model_PKG](https://github.com/SteveMacenski/slam_toolbox): Este paquete incluye los modelos URDF del robot así como programas para la interfaz gráfica de RViz.
+- [sundy_model_PKG](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/sundy_model_pkg): Este paquete incluye los modelos URDF del robot así como programas para la interfaz gráfica de RViz.
 
 Para la ejecución del robot y la activación de los diferentes tópicos y nodos, se incluye el siguiente paquete:
 - [sundy_operation](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/sundy_operation): Este paquete contiene un nodo de teleoperación y el nodo maestro del robot.
