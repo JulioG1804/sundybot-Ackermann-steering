@@ -31,7 +31,7 @@ Este robot utiliza varios paquetes complementarios que deben ser instalados tant
 
 ## Lanzadores
 Para la puesta en marcha se disponen diferentes lanzadores tanto para el robot como para la computadores remota
-**Para el robot**
+### Para el robot
 ```bash
 roslaunch sundy_operation sundybot_fake.launch
 ```
@@ -45,7 +45,7 @@ roslaunch sundy_operation sundybot_with_lidar.launch
 ```
 Este lanzador inicia los mismos nodos que sundybot_fake, pero además incluye el paquete del LiDAR. En el lanzador se incluye el código configurado en el apartado dedicado a la preparación del sensor LD19.
 
-**Para la computadora remota**
+### Para la computadora remota
 ```bash
 roslaunch sundy_model_pkg sundy_robot.launch
 ```
