@@ -34,16 +34,28 @@ Para la puesta en marcha se disponen diferentes lanzadores tanto para el robot c
 **Para el robot**
 ```bash
 roslaunch sundy_operation sundybot_fake.launch
+```
+```bash
 roslaunch sundy_operation sundybot_gp_teleoperation.launch
+```
+```bash
 roslaunch sundy_operation sundybot_with_lidar.launch
 ```
 
 **Para la computadora remota**
 ```bash
 roslaunch sundy_model_pkg sundy_robot.launch
+```
+```bash
 roslaunch sundy_model_pkg sundy_robot_with_lidar.launch
+```
+```bash
 roslaunch sundy_model_pkg sundy_robot_hectorslam.launch
+```
+```bash
 rosrun sundy_gui_pkg dashboard.py
+```
+```bash
 rosrun sundy_gui_pkg collector.py
 ```
 
