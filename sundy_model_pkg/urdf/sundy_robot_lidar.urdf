@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- http://wiki.ros.org/urdf/XML/link -->
+<robot name="fourwhell_robot">
+        <!-- this is the body of the robot -->
+        <link name="base_link">
+                <visual>
+                       <origin rpy="0 0 0" xyz="0.135 0 0"/>
+                       <geometry>
+                               <box size="0.35 0.187 0.2" />
+                       </geometry>
+                       
+                       <material name="black">
+                              <color rgba="0 0 0 1"/>
+                       </material>
+                       
+                </visual>
+        </link>
+        <joint name="fixed_joint" type="fixed" >
+        	<parent link="base_link"/>
+        	<child link="lidar_link" />
+        	<origin xyz="0.27 0 0.125" rpy="0 0 0" />
+        </joint>
+        <link name="lidar_link">
+        	<visual>
+        		<origin rpy="0 0 0" xyz="0 0 0"/>
+        		<geometry>
+        			<box size="0.08 0.08 0.05"/>
+        		</geometry>
+        		
+        		<material name="red">
+                              <color rgba="1 0 0 1"/>
+                       </material>
+        	</visual>
+        </link>
+</robot>

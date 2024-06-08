@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<launch>
+       <arg name="model" />
+       <param name= "robot_description" textfile="$(find sundy_model_pkg)/urdf/sundy_robot_lidar.urdf" />
+       <param name= "pointcenter_description" textfile="$(find sundy_model_pkg)/urdf/centerpoint.urdf" />
+
+<!-- node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" /-->
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find sundy_model_pkg)/sundy_with_lidarRviz.rviz" required="true" />
+</launch>

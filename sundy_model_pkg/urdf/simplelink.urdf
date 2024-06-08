@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- http://wiki.ros.org/urdf/XML/link -->
+<robot name="fourwhell_robot">
+        <!-- this is the body of the robot -->
+        <link name="body_link">
+                <visual>
+                       <origin rpy="0 0 0" xyz="0 0 0"/>
+                       <geometry>
+                               <box size="1 0.6 0.3" />
+                       </geometry>
+                       
+                       <material name="red">
+                              <color rgba="1 0 0 1"/>
+                       </material>
+                       
+                </visual>
+        </link>
+</robot>

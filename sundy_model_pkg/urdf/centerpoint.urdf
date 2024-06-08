@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- http://wiki.ros.org/urdf/XML/link -->
+<robot name="fourwhell_robot">
+        <!-- this is the body of the robot -->
+        <link name="odom">
+                <visual>
+                       <origin rpy="0 0 0" xyz="0 0 0"/>
+                </visual>
+        </link>
+</robot>
