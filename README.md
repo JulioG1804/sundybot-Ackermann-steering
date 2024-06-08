@@ -6,7 +6,7 @@ La arquitectura de hardware del robot involucra dos Arduinos que desempeñan fun
 - **Arduino Nano**: Actúa como controlador de velocidad para un motor brushless YSIDO sensored, calculando las RPM y determinando la velocidad sobre el eje de giro de la rueda mediante una relación de reducción.
 - **Arduino Uno**: Captura valores del sensor BNO055 y está conectado a un divisor de tensión que mide el voltaje de una batería LiPo de dos celdas.
 
-Programacion de Arduino UNO y Arduino Nano [Programacion Arduino](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/Recursos%20complementarios).
+Programacion de Arduino UNO y Arduino Nano [Programacion Arduino](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/Programacion%20Arduino).
 
 Los diagramas de conexión y los esquemas de la arquitectura de software y hardware se encuentran en la carpeta de recursos complementarios [Recursos complementarios](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/Recursos%20complementarios).
 
