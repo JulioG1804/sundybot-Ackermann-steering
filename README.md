@@ -29,3 +29,7 @@ Este robot utiliza varios paquetes complementarios que deben ser instalados tant
 - [rosserial](https://github.com/ros-drivers/rosserial): Facilita la comunicación serial con los Arduinos.
 - [ldlidar_stl_ros](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/ldlidar_stl_ros): Levanta la información obtenida por el LIDAR LD19. Este paquete ha sido modificado para adaptarlo a la arquitectura desarrollada para este robot.
 
+```bash
+git clone https://github.com/f1tenth/f1tenth_gym_ros
+```
+
