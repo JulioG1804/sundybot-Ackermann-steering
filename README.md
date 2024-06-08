@@ -20,7 +20,7 @@ Para la ejecución del robot y la activación de los diferentes tópicos y nodos
 Este robot utiliza varios paquetes complementarios que deben ser instalados tanto en la computadora remota como en el robot:
 
 ### Para la computadora remota
-- [hector_slam](https://github.com/SteveMacenski/slam_toolbox): Este paquete ha sido modificado, por lo que la versión mencionada aquí es exclusivamente compatible con la arquitectura ROS descrita para este robot.
+- [hector_slam](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/hector_slam): Este paquete ha sido modificado, por lo que la versión mencionada aquí es exclusivamente compatible con la arquitectura ROS descrita para este robot.
 
 ### Para el robot
 - [joy](https://github.com/ros-drivers/joystick_drivers/tree/main/joy): Permite conectar el mando a distancia F710.
