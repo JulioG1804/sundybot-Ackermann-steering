@@ -1,0 +1,9 @@
+<launch>
+  <!-- Lanzar el nodo joy_node con el dispositivo específico -->
+  <node name="joy_node" pkg="joy" type="joy_node" output="screen">
+    <param name="dev_name" value="Logitech Logitech Cordless RumblePad 2" />
+  </node>
+
+  <!-- Lanzar el nodo teleop_gp_sundy -->
+  <node name="teleop_gp_sundy" pkg="sundy_operation" type="teleop_gp_sundy" output="screen" />
+</launch>

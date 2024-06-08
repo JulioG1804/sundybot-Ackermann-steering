@@ -1,0 +1,13 @@
+<launch>
+  <!-- Lanzar el nodo serial_node.py de rosserial_python -->
+  <node name="ArduinoNano_node" pkg="rosserial_python" type="serial_node.py" output="screen">
+    <param name="port" value="/dev/ttyUSB0" />
+  </node>
+
+  <!-- Lanzar el nodo serial_node.py de rosserial_python -->
+  <node name="ArduinoUno_node" pkg="rosserial_python" type="serial_node.py" output="screen">
+    <param name="port" value="/dev/ttyACM0" />
+  </node>
+  <!-- Lanzar el nodo serial_node.py de rosserial_python -->
+  <node name="Sundy_collector" pkg="sundy_operation" type="sundydata_sundy" output="screen" />
+</launch>
