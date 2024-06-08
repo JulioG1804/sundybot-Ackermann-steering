@@ -15,3 +15,15 @@ Para visualizar al robot desde una computadora remota se incluyen dos paquetes:
 
 Para la ejecución del robot y la activación de los diferentes tópicos y nodos, se incluye el siguiente paquete:
 - [sundy_operation](https://github.com/SteveMacenski/slam_toolbox): Este paquete contiene un nodo de teleoperación y el nodo maestro del robot.
+
+## Paquetes Necesarios
+Este robot utiliza varios paquetes complementarios que deben ser instalados tanto en la computadora remota como en el robot:
+
+### Para la computadora remota
+- [hector_slam](https://github.com/SteveMacenski/slam_toolbox): Este paquete ha sido modificado, por lo que la versión mencionada aquí es exclusivamente compatible con la arquitectura ROS descrita para este robot.
+
+### Para el robot
+- [joy](https://github.com/ros-drivers/joystick_drivers/tree/main/joy): Permite conectar el mando a distancia F710.
+- [rosserial](https://github.com/SteveMacenski/slam_toolbox): Facilita la comunicación serial con los Arduinos.
+- [ldlidar_stl_ros](https://github.com/SteveMacenski/slam_toolbox): Levanta la información obtenida por el LIDAR LD19. Este paquete ha sido modificado para adaptarlo a la arquitectura desarrollada para este robot.
+
