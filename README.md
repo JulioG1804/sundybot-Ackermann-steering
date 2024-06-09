@@ -1,6 +1,8 @@
 # sundybot-Ackermann-steering
 Este repositorio contiene los paquetes necesarios para la puesta en marcha de un robot con sistema de direccionamiento Ackermann, llamado sundybot.
 
+![alt text] ()
+
 ## Arquitectura de Hardware
 La arquitectura de hardware del robot involucra dos Arduinos que desempeñan funciones críticas:
 - **Arduino Nano**: Actúa como controlador de velocidad para un motor brushless YSIDO sensored, calculando las RPM y determinando la velocidad sobre el eje de giro de la rueda mediante una relación de reducción.
