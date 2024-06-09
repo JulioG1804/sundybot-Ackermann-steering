@@ -1,8 +1,6 @@
 # sundybot-Ackermann-steering
 Este repositorio contiene los paquetes necesarios para la puesta en marcha de un robot con sistema de direccionamiento Ackermann, llamado sundybot.
-
-<center><img src="https://github.com/JulioG1804/sundybot-Ackermann-steering/blob/main/Videos%20e%20imagenes/sundybot1.JPG" style="width:200px;"/></center>
-![alt text](https://github.com/JulioG1804/sundybot-Ackermann-steering/blob/main/Videos%20e%20imagenes/sundybot1.JPG)
+<p align="center"><img src="https://github.com/JulioG1804/sundybot-Ackermann-steering/blob/main/Videos%20e%20imagenes/sundybot1.JPG" style="width:200px;"/></p>
 
 ## Arquitectura de Hardware
 La arquitectura de hardware del robot involucra dos Arduinos que desempeñan funciones críticas:
