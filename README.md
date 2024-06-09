@@ -13,6 +13,7 @@ Programacion de Arduino UNO y Arduino Nano [Programacion Arduino](https://github
 
 Los diagramas de conexión y los esquemas de la arquitectura de software y hardware se encuentran en la carpeta de recursos complementarios [Recursos complementarios](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/Recursos%20complementarios).
 
+
 ## Paquetes Proporcionados
 Para visualizar al robot desde una computadora remota se incluyen dos paquetes:
 - [sundy_gui_PKG](https://github.com/JulioG1804/sundybot-Ackermann-steering/tree/main/sundy_gui_pkg): Este paquete contiene dos interfaces gráficas (Dashboard y Collector).
